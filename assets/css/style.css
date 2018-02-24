@@ -16,6 +16,9 @@ header {
 }
 h1 {
     background: #4aaaa5;
+    animation-name: myname;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
     padding: 26px 0 26px 0;
     width: 250px;
     height: 28px;
@@ -174,6 +177,9 @@ aside {
 footer {
     clear: both;                                        
     background: #666666;
+    animation-name: copyright;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
     height: 15px;
     width: 100%;
     padding: 30px;
@@ -184,6 +190,20 @@ footer {
     position: fixed;
     bottom: 0;
 }
+
+@keyframes myname {
+    from {background: #4aaaa5;}
+    to {background: #666666;}
+}
+
+@keyframes copyright {
+    from {background: #666666;
+        border-top-color: #4aaaa5;
+    }
+    to {background: #4aaaa5;
+        border-top-color: #666666;
+    }
+
 
 @media screen and (max-width: 980px) {
     
