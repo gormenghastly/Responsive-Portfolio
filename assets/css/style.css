@@ -19,6 +19,7 @@ h1 {
     animation-name: myname;
     animation-duration: 10s;
     animation-iteration-count: infinite;
+    animation-direction: alternate;
     padding: 26px 0 26px 0;
     width: 250px;
     height: 28px;
@@ -180,6 +181,7 @@ footer {
     animation-name: copyright;
     animation-duration: 10s;
     animation-iteration-count: infinite;
+    animation-direction: alternate;
     height: 15px;
     width: 100%;
     padding: 30px;
