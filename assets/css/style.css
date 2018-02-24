@@ -193,18 +193,19 @@ footer {
     bottom: 0;
 }
 
+/* possible keyframe, researching placement
 @keyframes myname {
     from {background: #4aaaa5;}
     to {background: #666666;}
 }
-
+possible keyframe, researching placement
 @keyframes copyright {
     from {background: #666666;
         border-top-color: #4aaaa5;
     }
     to {background: #4aaaa5;
         border-top-color: #666666;
-    }
+    }*/
 
 
 @media screen and (max-width: 980px) {
